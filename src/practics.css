@@ -1,0 +1,84 @@
+*{
+    color-scheme: light dark;
+}
+/* Styling for the image */
+img {
+    width: 390px;
+    border-radius: 8px;
+    height: auto;
+    cursor: pointer;
+    margin: 15px 5px;
+    
+  }
+  
+  /* Styling for each card */
+  .border {
+    border: 2px solid white; /* Adds a black border by default */
+    border-top: 5px solid blue; /* Changes the top border color to blue */
+    border-top-left-radius: 10px; /* Rounds the top-left corner */
+    border-top-right-radius: 10px;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    padding: 15px; /* Adds padding inside each card */
+    box-shadow: 0px 4px 6px white; /* Adds a subtle shadow */
+    
+  }
+  
+  /* Container to display cards in a row */
+  .card-container {
+    display: flex; /* This arranges the cards horizontally */
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line if needed */
+    gap: 20px; /* Adds space between the cards */
+    justify-content: center; /* Centers the cards in the row */
+    padding: 20px; /* Adds padding around the container */
+  }
+  
+  /* Button styling */
+  .btn {
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  /* Image hover effect */
+img:hover {
+   transform: scale(1.1);/* Slight zoom effect */
+    box-shadow: 0px 8px 12px rgba(255, 255, 255, 0.6); /* Adds a brighter shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: darkred; /* Changes the background color on hover */
+    color: yellow; /* Changes the text color */
+    transform: translateY(-2px); /* Slight upward motion */
+    box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.6); /* Adds shadow on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    transform: scale(1.1);
+}
+.btn2{
+  color: white;
+    font-weight: bold;
+    background-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+
+}
+.btn2:hover{
+  background-color: darkred; /* Changes the background color on hover */
+  color: yellow; /* Changes the text color */
+  transform: translateY(-2px); /* Slight upward motion */
+  box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.6); /* Adds shadow on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  transform: scale(1.1);
+}
